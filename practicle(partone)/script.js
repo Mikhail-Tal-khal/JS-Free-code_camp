@@ -39,3 +39,14 @@ console.log(myPoints);
 // This code defines two functions to modify the myPoints variable.
 // add3Points adds 3 points, and remove1Point removes 1 point.
 // After calling these functions, myPoints will be 6.
+
+
+let error = document.getElementById("error");
+
+function purchase(){
+    error.textContent = "Something went wrong!";
+}
+
+// This code selects an HTML element with the ID "error" and defines a function purchase.
+// When purchase is called, it sets the text content of the error element to "Something went wrong!".
+// This is typically used to display an error message in a web application.
