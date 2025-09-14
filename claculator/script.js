@@ -19,15 +19,15 @@ function add() {
 
 function subtract() {
     let difference = num1 - num2
-    document.getElementById("sum-el").textContent = "Sum: " + difference
+    document.getElementById("sum-el").textContent = "dif: " + difference
 }
 
 function divide() {
     let quotient = num1 / num2
-    document.getElementById("sum-el").textContent = "Sum: " + quotient
+    document.getElementById("sum-el").textContent = "div: " + quotient
 }
 
 function multiply() {
     let product = num1 * num2
-    document.getElementById("sum-el").textContent = "Sum: " + product
+    document.getElementById("sum-el").textContent = "mult: " + product
 }   
