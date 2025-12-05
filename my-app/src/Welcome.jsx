@@ -1,3 +1,3 @@
-export const Welcome = () => {
-    return <h2>Welcome to the React App!</h2>
+export const Welcome = (props) => {
+    return <h2>Welcome {props.name} a.k.a! {props.alias}</h2>
 }
