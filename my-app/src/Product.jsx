@@ -1,4 +1,4 @@
-export const Product = ({ title, price, inStock, categories = [] }) => {
+export const Product = ({ title, price, inStock, categories}) => {
     return (
         <div>
             <h3>{title}</h3>

@@ -2,6 +2,8 @@ import { Welcome } from './Welcome.jsx'
 import { Button } from './Button.jsx'
 import { Hello } from './Hello.jsx'
 import { Product } from './Product.jsx'
+import { Greeting } from './Greeting.jsx'
+import{CardWrapper} from './CardWrapper.jsx'
 import './App.css'
 
 function App() {
@@ -10,13 +12,25 @@ function App() {
     <div>
 
       <Hello />
+
+      <Greeting name="Brown" message="Goodmorning" />
+      <Greeting name="Kelvin" />
+      <Greeting message="GoodAfternoon" />
+      <Greeting/>
+
+      <CardWrapper title="User Information Card">
+        <h3>Bruce Wayne</h3>
+        <p>Batman@jmail.com</p>
+        <button>Edit profile</button>
+      </CardWrapper>
+
       <Welcome name='kalvani' alias="Ranger" />
       <Welcome name='diana' alias="Guard" />
       <Welcome name='neymer' alias="Defender" />
-      <Product title="GaminingLaptop" Price={1299.56} inStock={true} Categories={("Electronics", "Computers", "Gaming")} />
+      <Product title="GamingLaptop" Price={1299.56} inStock={true} categories={["Electronics", "Computers", "Gaming"]} />
       <Button />
     </div>
   )
 }
 
-export default App
+export default App;
