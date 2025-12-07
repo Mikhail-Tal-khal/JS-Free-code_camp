@@ -4,6 +4,9 @@ import { Hello } from './Hello.jsx'
 import { Product } from './Product.jsx'
 import { Greeting } from './Greeting.jsx'
 import{CardWrapper} from './CardWrapper.jsx'
+import {UserDetail} from './UserDetail.jsx'
+import{ProductList} from './ProductList.jsx'
+
 import './App.css'
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
     <div>
 
       <Hello />
+      <ProductList />
+      <UserDetail name="Khlyan" isOnline={true} isPremium={true} isNewUser={true} role="admin"/>
+      <UserDetail name="Ahmed" isOnline={true} hideOffline={true} role="Vip"/>
 
       <Greeting name="Brown" message="Goodmorning" />
       <Greeting name="Kelvin" />
