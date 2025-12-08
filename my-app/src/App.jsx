@@ -8,6 +8,9 @@ import { UserDetail } from './UserDetail.jsx'
 import { ProductList } from './ProductList.jsx'
 import { Alert } from './Alert.jsx'
 import { CustomButton } from './CustomButton.jsx'
+import { ContactForm } from './ContactForm.jsx'
+import { Menu } from './Menu.jsx'
+
 
 import './App.css'
 
@@ -19,6 +22,8 @@ function App() {
       
 
       <Hello />
+      <Menu />
+      <ContactForm/>
       <CustomButton />
 
       <Alert>This is an alert message!</Alert>
