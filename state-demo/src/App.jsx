@@ -3,6 +3,7 @@ import { Counter } from './Counter.jsx'
 import { LoginCard } from './LoginCard.jsx'
 import { PrevStateCounter } from './PrevStateCounter.jsx'
 import { BatchingCounter } from './BatchingCounter.jsx'
+import { UserProfile } from './UserProfile.jsx'
 
 import './App.css'
 
@@ -13,7 +14,8 @@ function App() {
       <h1>Learning state management with react</h1> 
       {/* <Counter />  
       <LoginCard />  */}
-      <BatchingCounter />
+      {/* <BatchingCounter /> */}
+      <UserProfile />
     </>
   )
 }
